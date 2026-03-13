@@ -1,0 +1,9 @@
+version: "1.0.0"
+framework: "NIST RMF v1"
+allowed_severities:
+  - Low
+  - Informational
+mandatory_checks:
+  - prompt_injection
+  - sensitive_data_exposure
+remediation_required: true
